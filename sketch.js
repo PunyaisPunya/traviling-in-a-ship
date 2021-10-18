@@ -34,8 +34,9 @@ function draw() {
   //sea.velocityY = -3;
   //sea.x = -3;
   //sea.velocityX = -3;
-  sea.velocityX = 3;
-  if (sea.x < 0){
+if (sea.x < 0){ 
+  sea.x = sea.width/6;
+}
     sea.x = sea.width/2;
   }
 
